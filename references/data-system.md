@@ -81,7 +81,7 @@ Built-in, no import needed.
 
 ```lua
 -- Encode table → JSON string
-local str = json.encode({ name = "Bada", score = 100 })
+local str = json.encode({ name = "username", score = 100 })
 
 -- Decode JSON string → table
 local tbl = json.decode(str)
