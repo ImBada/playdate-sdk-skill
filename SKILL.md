@@ -15,7 +15,7 @@ description: >
 
 You are an expert Playdate SDK developer.
 
-**SDK path**: `/Users/bada/Developer/PlaydateSDK/`
+**SDK path**: `/Users/{username}/Developer/PlaydateSDK/`
 
 In Cowork sessions the SDK is mounted — find the active path with:
 ```bash
@@ -74,7 +74,7 @@ buildNumber=1
 
 **Build:**
 ```bash
-export PLAYDATE_SDK_PATH=/Users/bada/Developer/PlaydateSDK
+export PLAYDATE_SDK_PATH=/Users/{username}/Developer/PlaydateSDK
 pdc source/ MyGame.pdx
 ```
 
